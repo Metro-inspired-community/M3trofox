@@ -1,43 +1,16 @@
- <span style="display:block;text-align:center">![Eclipse r3dfox](./docs/readme/banner.png)</span>
+(sorry no image, i not proffesional artist - (c) MulpinKR)
 
-[Official Eclipse Community Discord Server](https://discord.gg/ecx)
-
-Eclipse r3dfox is a fork of the Mozilla Firefox web browser made specifically for Windows Vista, 7, and 8 compatibility. We also have Extended Support Release and beta versions as well.
-
-<img width="1440" height="900" alt="big1" src="https://github.com/user-attachments/assets/58c759f8-8935-40ce-9ff3-a7d5e5b7c924" />
-
-<img width="1440" height="900" alt="big2" src="https://github.com/user-attachments/assets/99acd2b3-bce5-4176-b5bf-a13241d2487a" />
-
-(r3dfox ESR image goes here once 140.9.0 is out because revamped branding) (Plasmafox 150 beta image goes here when it exists)
+Metro-inspired M3trofox is a fork of the Mozilla Firefox web browser made specifically for 8 compatibility. We also have Extended Support Release and beta (Beted) versions as well.
 
 Limited compatibility with One Core API on Windows XP is offered at the current time, however this is not tested consistently. Any issues that may arise that are hard to diagnose may be left to the extended kernel provider to fix.
 
-Local (GitHub) Downloads ([New Repo](https://github.com/Eclipse-Community/r3dfox)): [![Github All Releases](https://img.shields.io/github/downloads/Eclipse-Community/r3dfox/total.svg)]()
-
-Local (GitHub) Downloads ([Old Repo](https://github.com/Eclipse-Community/r3dfox-old)): [![Github All Releases](https://img.shields.io/github/downloads/Eclipse-Community/r3dfox-old/total.svg)]()
-
-SourceForge Downloads: ![SourceForge Downloads](https://img.shields.io/sourceforge/dt/r3dfox)
-
 ## Features
+- IE9-IE13 look like interface! (or metro-like style, dont wrong with metro firefox, we dont afiliated with that)
+- Touchscreen support (experimental, mostly for windows 8/8.1, for touschscreen support we will use interface from 8.1 version of IE, its have more metro style than win32api style)
+- maybe more ram optimization?
+- other r3dfox useful stuff
 
-- New default theme and color scheme!
-- More native and native like elements, scrollbar, checkboxes, radio buttons, tooltips, and more!
-- Windows theme version override, ability to use modern (Windows 10) theme on any OS, or enable (Windows 7) Aero theme on Windows 10!
-- Full portable mode that doesn't touch AppData at all!
-- Switchable Classic about:config page!
-- Less telemetry than regular Firefox! No installer ping and no background tasks!
-- Easier to notice red retry button for failed downloads!
-- JPEG XL support! Including transparency and animation!
-- GPU/hardware acceleration in VMware Workstation 16 and above!
-- general.useragent.override.(website) is back!
-- Instant one off searches and classic one off search UI!
-- Ability to restore classic right click menu items such as view image and text navigation buttons!
-- Ability to disable CSP, CORS, HSTS, and SOP!
-- Able to bypass some Anubis bot checks without requiring JS or Cookies. [(Suggest websites to add to Anubis bypass here)](https://github.com/Eclipse-Community/r3dfox/issues/30)
-- Experimental (and kinda broken) ability to disable e10s (multiprocess), Skia, and DirectWrite!
-- Other options including the ability to easily disable geolocation, Web Audio, tab groups, screenshot component, tab hover preview, drop to pin tabs, add tab to taskbar button, urlbar foratting, switch to tab behavior, and more!
-
-## Credits
+## Credits (r3dfox related credits)
 
 If I've forgotten to put your name here, please let me know and I'll add it.
 
@@ -54,6 +27,11 @@ If I've forgotten to put your name here, please let me know and I'll add it.
 - [Solinus](https://solinus.neocities.org/) - Branding visuals, icons and fancy text.
 - [Tor Browser Developers](https://gitlab.torproject.org/tpo/applications/tor-browser) - Addon fix code from Tor Browser.
 
+## Credits (M3trofox related credits)
+if you want to be there - you need to be in my organization or collabing with me 
+- [Owner](https://github.com/MulpinKR) - Me (Mulpin), i do big work about project
+- [My Organization](https://github.com/Metro-inspired-community) - Thanks to all members who will help me partially with code: your support is valuable
+
 # Original repository readme
 
 ![Firefox Browser](./docs/readme/readme-banner.svg)
@@ -68,9 +46,5 @@ We use [bugzilla.mozilla.org](https://bugzilla.mozilla.org/) as our issue tracke
 
 ### Resources
 
-* [Firefox Source Docs](https://firefox-source-docs.mozilla.org/) is our primary documentation repository
-* Nightly development builds can be downloaded from [Firefox Nightly page](https://www.mozilla.org/firefox/channel/desktop/#nightly)
-
-If you have a question about developing Firefox, and can't find the solution
-on [Firefox Source Docs](https://firefox-source-docs.mozilla.org/), you can try asking your question on Matrix at
-chat.mozilla.org in the [Introduction channel](https://chat.mozilla.org/#/room/#introduction:mozilla.org).
+* [R3dfox github Source Docs](https://github.com/Eclipse-Community/r3dfox) is our primary target repository to fork
+* beted development builds can be downloaded from release page, its should be under name "Beted/beted"
